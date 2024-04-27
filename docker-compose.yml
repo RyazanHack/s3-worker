@@ -1,8 +1,8 @@
 version: '3.8'
 
 x-environment: &default-environment
-  MINIO_ACCESS_KEY: 98TwrSi3bPDwF7kaFOmS
-  MINIO_SECRET_KEY: AacSBHCVbNSZrsN9mxzury5dhqpMM8xQkjCJYpyK
+  MINIO_ACCESS_KEY: eoVnEUo0TjVwo5ltsQcI
+  MINIO_SECRET_KEY: g0pHa6qD2RNL8JIXgVaL8Xl2FYf06tTfqGHPgXED
   MINIO_ENDPOINT_URL: "http://api_s3:9000"
 
 services:
