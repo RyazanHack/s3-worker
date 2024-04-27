@@ -14,6 +14,8 @@ services:
       MINIO_ENDPOINT_URL: http://host.docker.internal:9000
     ports:
       - "8000:8000"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
   api_s3:
     image: minio/minio
     command: server /data --console-address ":9001"
