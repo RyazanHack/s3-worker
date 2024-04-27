@@ -1,4 +1,4 @@
-version: '3.4'
+version: '3.8'
 
 x-environment: &default-environment
   MINIO_ACCESS_KEY: 98TwrSi3bPDwF7kaFOmS
